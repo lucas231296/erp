@@ -15,7 +15,7 @@ const DataComment = () => {
         .catch (err=>{
             console.log(err);
         })
-    }, [])
+    }, )
   return (
     <div>
       <input type='text' value={id} onChange={e => setId (e.target.value)}/>
@@ -25,5 +25,5 @@ const DataComment = () => {
     </div>
   )
 }
-
 export default DataComment
+
